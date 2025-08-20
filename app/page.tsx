@@ -41,7 +41,7 @@ export default function Home() {
       <header className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
         <div className="flex items-center gap-2">
           <div className="h-6 w-6 rounded-full bg-slate-900" />
-          <span className="text-sm font-semibold" style={{ color: 'rgb(29, 29, 31)' }}>Chill Amplify</span>
+          <span className="text-sm font-semibold" style={{ color: 'rgb(29, 29, 31)' }}>Chief's First Amplify App</span>
         </div>
         <nav className="flex items-center gap-3">
           <Link href="/login" className="text-sm hover:underline" style={{ color: 'rgb(51, 51, 54)' }}>Login</Link>
@@ -59,11 +59,11 @@ export default function Home() {
         <section className="relative grid place-items-center py-20">
           <div className="text-center">
             <h1 className="mx-auto max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl" style={{ color: 'rgb(29, 29, 31)' }}>
-              Build modern apps with Amplify Gen 2 and Next.js
+              Welcome to Chief's First Amplify App! 🚀
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-base sm:text-lg" style={{ color: 'rgb(51, 51, 54)' }}>
-              A clean, opinionated template with an elegant UI library, authentication,
-              and ready-to-use dashboard components. Focus on features, not boilerplate.
+              You've successfully created your first AWS Amplify application with Next.js!
+              This is the beginning of your cloud development journey.
             </p>
             <div className="mt-8 flex justify-center gap-3">
               <AuthCta />
